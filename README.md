@@ -1,39 +1,40 @@
-# Bachelor of Informatics Honours
+# Data Analytics Assignments - Bachelor of Informatics Honours
 
-## Information & Knowledge in Organisations: Data Analytics
+## Overview
 
-## Assignment 1: Analysing the spread of Covid-19 in South Africa Covid-19 had a profound impact on the world over the past couple of years. In this assignment,
-you will use R to clean and visualize data related to the spread of the virus. You will obtain data from a publicly available source and use R to transform it into a format that can be used
-for analysis. After cleaning the data, you will create visualizations that provide insights into the spread of the virus over time, in different countries and regions. This assignment focuses on data wrangling and visualisation. For this assignment you need to
-produce a Quarto notebook that includes the code to wrangle and process the data necessary for visualising the spread of Covid-19 in South Africa.
+Completing this module deepened my understanding of **data analysis techniques** for statistical tasks. I gained knowledge in **design and ethical considerations**, along with hands-on experience in **data cleaning, manipulation, exploratory analysis, modeling, and visualization** using **R**. The assignments in this module provided practical applications of these skills in real-world scenarios.
+This repository contains assignments completed as part of my **Postgraduate Honours in Informatics**, focusing on **data analytics** in the module **Information & Knowledge in Organisations**. These assignments involved data wrangling, visualization, and natural language processing (NLP) techniques to analyze real-world datasets and uncover meaningful insights.
 
-### The assignment has two parts:
+## Assignments
 
-• Part A: Figure reproduction
-o You need to produce the seven visualisations presented on the next pages.1 This will involve collecting and processing the data prior to producing the visualisations.
+### **Assignment 1: Analysing the Spread of Covid-19 in South Africa**
+- **Objective:** Analyze the impact and spread of Covid-19 in South Africa using publicly available data.
+- **Key Activities:**
+  - Data acquisition and preprocessing using **R**.
+  - Cleaning and transforming Covid-19 datasets for analysis.
+  - Producing visualizations to explore the spread of the virus over time and across regions.
+- **Deliverable:** A **Quarto notebook** documenting the data processing steps and visualizations.
+- **Assignment Breakdown:**
+  - **Part A:** Reproducing seven pre-defined figures from the dataset.
+  - **Part B:** Designing seven additional visualizations exploring the pandemic beyond South Africa.
 
-• Part B: Figure design
-o Using this same data (or any other data) you need to produce seven further visuals that enable us to understand aspects of the Covid-19 pandemic beyond South Africa. These visuals cannot be the same as those produced in Part A.
+### **Assignment 3: What do Information Systems Researchers Write About?**
+- **Objective:** Conduct a bibliometric analysis of **Information Systems (IS) research** from 2011 to 2020.
+- **Key Activities:**
+  - Processing a bibliometric dataset containing research articles from key IS journals and conferences.
+  - Applying **Natural Language Processing (NLP)** techniques to analyze abstracts and keywords.
+  - Investigating research trends, author productivity, citation impact, and thematic evolution over time.
+- **Research Questions Explored:**
+  - Common topics and themes in IS research over the past decade.
+  - Evolution of IS research topics and trends.
+  - Most productive authors, journals, and citation impact.
+  - Authorship patterns and their relationship with research impact.
+  - Sentiment analysis of abstracts across different topics.
+- **Deliverable:** A comprehensive report with **data-driven insights, visualizations, and statistical analysis**.
 
+## Tools & Technologies
+- **Programming Language:** R
+- **Data Processing & Visualization:** Tidyverse (ggplot2, dplyr, tidyr), Quarto
+- **Natural Language Processing:** NLP libraries in R (tidytext, quanteda)
 
-## Assignment 3: What do Information Systems researchers write about?
-
-The rapid growth of Information Systems (IS) as a field of study has led to the publication of a large number of articles in this area. To gain insight into the research trends and patterns in
-IS, you are asked to analyze a bibliometric dataset that contains all IS articles published in the key journals and conferences in the field between 2011 and 2020.
-
-The data contains information on the articles, including title, abstract, authors, publication year, and keywords. Your task is to analyze this dataset using text-based techniques to inform readers
-about the field. Your analysis can address, for example, the following research questions:
-
-
-1. What are the most common topics and themes in IS research over the past decade?
-2. How have the IS research topics and themes evolved over the past decade?
-3. What are the most productive authors and journals in the field of IS?
-4. What is the impact of IS research, as measured by citation counts?
-5. What are the most frequent keywords in IS and how have they changed over time?
-6. Is there a relationship between particular topics and themes and citation counts?
-7. What is the relationship between authorship patterns (e.g. single authorship, multi-authorship) and research impact in the IS field?
-8. Does the tonality of IS abstracts differ by topic?
-
-In your analysis, you are expected to use NLP to process the abstracts (and any other available
-metrics/text) of the articles. You will then present your findings in a clear and concise manner,
-supported by appropriate tables, figures, and visualizations.
+This repository showcases my ability to apply **data analytics, visualization, and NLP techniques** to real-world datasets and generate meaningful insights.
